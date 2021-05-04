@@ -23,5 +23,5 @@ $ yarn server
 ```
 
 **Acesse <http://localhost:8080> para ver o resultado.**
-> _Lembre de deixar o JSON Server rodando, por isso utilize outro terminal para executar o projeto._
+> _Lembre-se de deixar o JSON Server rodando, por isso utilize outro terminal para executar o projeto._
 
