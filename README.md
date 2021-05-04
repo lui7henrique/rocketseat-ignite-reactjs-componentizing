@@ -21,7 +21,7 @@ $ yarn server
 
 ```bash 
 # Execute o projeto em outro terminal 
-$ yarn server
+$ yarn dev
 ```
 
 **Acesse <http://localhost:8080> para ver o resultado.**
