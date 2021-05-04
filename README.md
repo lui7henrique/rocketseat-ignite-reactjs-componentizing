@@ -4,7 +4,9 @@
 
 ```bash 
 # Clone o repositório
-$ https://github.com/lui7henrique/watchMe.git
+$ https://github.com/lui7henrique/watchMe.git 
+//ou 
+$ git@github.com:lui7henrique/watchMe.git
 ```
 
 ```bash 
