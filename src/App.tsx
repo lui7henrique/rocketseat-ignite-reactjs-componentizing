@@ -31,7 +31,7 @@ export function App() {
 
   useEffect(() => {
     api.get<IGenreResponseProps[]>("genres").then((response) => {
-      setGenres(response.data); // retorna os gêneros
+      setGenres(response.data); // retorna todos os gêneros
     });
   }, []);
 
