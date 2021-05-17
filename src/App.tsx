@@ -31,7 +31,7 @@ export function App() {
 
   useEffect(() => {
     api.get<IGenreResponseProps[]>("genres").then((response) => {
-      setGenres(response.data);
+      setGenres(response.data); // retorna os gêneros
     });
   }, []);
 
@@ -39,13 +39,13 @@ export function App() {
     api
       .get<IMovieProps[]>(`movies/?Genre_id=${selectedGenreId}`)
       .then((response) => {
-        setMovies(response.data);
+        setMovies(response.data); // retorna os filmes do gênero selecionado
       });
 
     api
       .get<IGenreResponseProps>(`genres/${selectedGenreId}`)
       .then((response) => {
-        setSelectedGenre(response.data);
+        setSelectedGenre(response.data); // retorna o gênero selecionado
       });
   }, [selectedGenreId]);
 
